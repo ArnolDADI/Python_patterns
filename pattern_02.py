@@ -7,11 +7,11 @@ To create a funtion that prints
 *
 """
 
-def pattern2():
+def pattern():
     """ Function printing the pattern"""
     for i in range(5, 0, -1):
         print(i * '*')
 
 
-pattern2()
+pattern()
 # End-of-file (EOF)

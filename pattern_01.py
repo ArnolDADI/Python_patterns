@@ -6,10 +6,11 @@
 *****
 """
 
-def pattern1():
+def pattern():
     """ Function printing the pattern"""
     for i in range(0, 6):
         print(i * '*')
 
 
-pattern1()
+pattern()
+# End-of-file (EOF)

@@ -7,7 +7,7 @@ To create a function that prints
 *********
 """
 
-def pattern5 ():
+def pattern():
     """ Function printing the pattern"""
     k = 5
     j = 1
@@ -16,5 +16,5 @@ def pattern5 ():
         j += 2
 
 
-pattern5()
+pattern()
 # End-of-file (EOF)
