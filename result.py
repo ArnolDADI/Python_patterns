@@ -9,7 +9,9 @@ for x in os.listdir():
         patterns = x[:-3]
         try:
             print (f"{patterns}\n")
-            __import__(patterns)
+            mod =__import__(patterns)
+            func = getattr(mod, patterns)
+            func()
             print ("\n*Success\n")
         except ImportError:
             print ("Error ", patterns)

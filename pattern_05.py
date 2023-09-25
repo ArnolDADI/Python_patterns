@@ -7,8 +7,8 @@ To create a function that prints
 *********
 """
 
-def pattern():
-    """ Function printing the pattern"""
+def pattern_05():
+    """ Function printing the pattern_05"""
     k = 5
     j = 1
     for i in range (k):
@@ -16,5 +16,5 @@ def pattern():
         j += 2
 
 
-pattern()
+#pattern_05()
 # End-of-file (EOF)
