@@ -8,9 +8,10 @@
 
 def pattern_01():
     """ Function printing the pattern_01"""
+    pattern = ''
     for i in range(0, 6):
-        print(i * '*')
+        pattern += f"{i * '*'}\n"
 
+    return pattern
 
-pattern_01()
 # End-of-file (EOF)

@@ -11,10 +11,11 @@ def pattern_05():
     """ Function printing the pattern_05"""
     k = 5
     j = 1
+    pattern = ''
     for i in range (k):
-        print (f"{(k - i - 1) * ' '}{j * '*'}")
+        pattern += (f"{(k - i - 1) * ' '}{j * '*'}\n")
         j += 2
 
+    return pattern
 
-#pattern_05()
 # End-of-file (EOF)
